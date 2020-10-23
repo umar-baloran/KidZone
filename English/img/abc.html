@@ -1,0 +1,29 @@
+<html> 
+<head>
+<style>
+input:required{
+outline:lpx red solid;
+color:#00FFFF;
+}
+
+input:required:valid{
+background-size:10px 10px;
+background-posotion:right top;
+background:repeat:no-repeat;
+}
+
+input:required:invalid{
+background-size:10px 10px;
+background-position:right top;
+background:repeat:no-repeat;
+}
+</style>
+</head>
+<body>
+<form>
+Name:<input type="text" name="name" required="ture" /> <br/>
+email:<input type="email" name= "emailid" required="ture"/> <br/>
+<input type ="submit" value="sumbit"/>
+
+</body>
+</html>

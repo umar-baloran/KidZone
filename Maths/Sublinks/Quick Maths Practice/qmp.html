@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quick Maths Practice</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+function table()
+{
+var x=prompt("Enter a number:",2);
+var alertBody = '';
+for (var i=1; i<10; i++) {
+alertBody += x + "x" + i +"="+x*i + '\n';
+}
+alert(alertBody);
+}
+</script>
+<script language="JavaScript">
+function addition()
+{
+var num1 = parseInt(prompt("Enter the first number"));
+var num2 = parseInt(prompt("Enter the second number"));
+alert ("The answer is " + (num1+num2));
+}
+</script>
+<script language="JavaScript">
+function subtraction()
+{
+var num1 = parseInt(prompt("Enter the first number"));
+var num2 = parseInt(prompt("Enter the second number"));
+alert ("The difference is " + (num1-num2));
+}
+</script>
+<script language="JavaScript">
+function multiplication()
+{
+var num1 = parseInt(prompt("Enter the first number"));
+var num2 = parseInt(prompt("Enter the second number"));
+alert ("The product is " + (num1*num2));
+}
+</script>
+<script language="JavaScript">
+function division()
+{
+var num1 = parseInt(prompt("Enter the first number"));
+var num2 = parseInt(prompt("Enter the second number"));
+alert ("The quotient is " + (num1/num2));
+}
+</script>
+</head>
+
+<body>
+
+<header>
+<div id="logo">
+<img src="../../../homepage/img/logo.png" alt="logo" width="265px" height="186px"  />
+</div>
+</header>
+
+<section>
+
+<div id="saver">
+
+<ul id="menu_wrap" class="l_Green">
+<li class="button">
+<a href="../../../homepage/index.html">Home</a></li>
+<li class="button">
+<a href="../../maths.html">Mathematics</a></li>
+<li class="button">
+<a href="../../../Science/science.html">Science</a></li>
+<li class="button">
+<a href="../../../English/english.html">English</a></li>
+<li class="button">
+<a href="../../../Games/games.html">Games</a></li>
+<li class="button">
+<a href="../../../Stories/Stories.html">Stories</a></li>
+<li class="button">
+<a href="../../../Rhymes/Rhymes.html">Rhymes</a></li>
+<li class="button">
+<a href="../../../About Us/aboutus.html">About Us</a></li><li class="button">
+<a href="../../../Feed back/Feedback.html">Feedback</a>
+</li>
+</ul>
+
+</div>
+
+<div id="title">
+<strong>Quick Maths Operations</strong>
+</div>
+
+
+<div id="operations">
+<a href="#" onClick="addition()" id="operation">
+<div id="operation1">
+<strong>Addition</strong>
+</div>
+</a>
+
+<a href="#" onClick="subtraction()" id="operation">
+<div id="operation2">
+<strong>Subtraction</strong>
+</div>
+</a>
+
+<a href="#" onClick="multiplication()" id="operation">
+<div id="operation3">
+<strong>Multiplication</strong>
+</div>
+</a>
+
+<a href="#" onClick="division()" id="operation">
+<div id="operation4">
+<strong>Division</strong>
+</div>
+</a>
+
+<a href="#" onClick="table()" id="operation">
+<div id="operation5">
+<strong>Times Tables</strong>
+</div>
+</a>
+
+</div>
+
+<div id="qa">
+<div id="main_content_items">
+<table width="100%" border="1"  style="border:5px #FF0000 solid;">
+  <tr>
+    <td>
+    <script language="javascript">
+function Answer1()
+{
+  var answer = document.Q1.answer.value
+  if (answer != 8) {
+    alert("Incorrect! Try again.")
+    docment.Q1.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q1"><p2>(1)&nbsp;2 + 6 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer1()">
+</p2></form></td>
+    <td><script language="javascript">
+function Answer4()
+{
+  var answer = document.Q4.answer.value
+  if (answer != 12) {
+    alert("Incorrect! Try again.")
+    docment.Q4.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q4"><p2>(4)&nbsp;5 + 7 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer4()">
+</p2></form></td>
+    <td><script language="javascript">
+function Answer7()
+{
+  var answer = document.Q7.answer.value
+  if (answer != 13) {
+    alert("Incorrect! Try again.")
+    docment.Q7.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q7"><p2>(7)&nbsp;6 + 7 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer7()">
+</p2></form></td>
+    <td><script language="javascript">
+function Answer10()
+{
+  var answer = document.Q10.answer.value
+  if (answer != 17) {
+    alert("Incorrect! Try again.")
+    docment.Q10.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q10"><p2>(10)&nbsp;8 + 9 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer10()">
+</p2></form></td>
+  </tr>
+  <tr>
+    <td><script language="javascript">
+function Answer2()
+{
+  var answer = document.Q2.answer.value
+  if (answer != 11) {
+    alert("Incorrect! Try again.")
+    docment.Q2.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q2"><p2>(2)&nbsp;8 + 3 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer2()"></p2>
+</form></td>
+    <td><script language="javascript">
+function Answer5()
+{
+  var answer = document.Q5.answer.value
+  if (answer != 12) {
+    alert("Incorrect! Try again.")
+    docment.Q5.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q5"><p2>(5)&nbsp;9 + 3 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer5()"></p2>
+</form></td>
+    <td><script language="javascript">
+function Answer8()
+{
+  var answer = document.Q8.answer.value
+  if (answer != 16) {
+    alert("Incorrect! Try again.")
+    docment.Q8.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q8"><p2>(8)&nbsp;8 + 8 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer8()"></p2>
+</form></td>
+    <td><script language="javascript">
+function Answer11()
+{
+  var answer = document.Q11.answer.value
+  if (answer != 15) {
+    alert("Incorrect! Try again.")
+    docment.Q11.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q11"><p2>(11)&nbsp;9 + 6 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer11()"></p2>
+</form></td>
+  </tr>
+  <tr>
+  <script language="javascript">
+function Answer3()
+{
+  var answer = document.Q3.answer.value
+  if (answer != 10) {
+    alert("Incorrect! Try again.")
+    docment.Q3.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <td><form name="Q3"><p2>(3)&nbsp;6 + 4 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer3()"></p2>
+</form></td>
+    <td><script language="javascript">
+function Answer6()
+{
+  var answer = document.Q6.answer.value
+  if (answer != 13) {
+    alert("Incorrect! Try again.")
+    docment.Q6.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q6"><p2>(6)&nbsp;8 + 5 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer6()"></p2>
+</form></td>
+    <td><script language="javascript">
+function Answer9()
+{
+  var answer = document.Q9.answer.value
+  if (answer != 14) {
+    alert("Incorrect! Try again.")
+    docment.Q9.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q9"><p2>(9)&nbsp;7 + 7 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer9()"></p2>
+</form></td>
+    <td><script language="javascript">
+function Answer12()
+{
+  var answer = document.Q12.answer.value
+  if (answer != 16) {
+    alert("Incorrect! Try again.")
+    docment.Q12.answer.value = ""
+  }
+  else  {
+    alert("Correct!")
+  }
+} 
+</script>
+    <form name="Q12"><p2>(12)&nbsp;7 + 9 =&nbsp;<input type="text" name="answer">&nbsp;<input type="button" name="check" value="Check" onClick="Answer12()"></p2>
+</form></td>
+  </tr>
+</table>
+</div>
+	</div>
+</div>
+
+</section>
+
+<footer>
+
+<div id="footer1">
+Copyright &copy; <a href="../../../homepage/index.html" style="text-decoration:none;color:#663399;">KidZone</a> All Rights Reserved.
+</div>
+
+<a href="../../../homepage/index.html" style="text-decoration:none;color:#000000;">
+<div id="footer2">
+<img src="../../../homepage/img/homeicon.png" alt="Home" width="70px" height="35px"  /> <strong>Home</strong>
+</div>
+</a>
+
+<a href="../../../About Us/aboutus.html" style="text-decoration:none;color:#000000;">
+<div id="footer2">
+<img src="../../../homepage/img/aboutus.jpg" alt="About Us" width="70px" height="35px"  /> <strong>About Us</strong>
+</div>
+</a>
+
+<a href="../../../Feed back/Feedback.html" style="text-decoration:none;color:#000000;">
+<div id="footer2">
+<img src="../../../homepage/img/contactus.png" alt="Feedback" width="70px" height="35px"  /> <strong>Feedback</strong>
+</div>
+</a>
+
+
+</footer>
+
+</body>
+</html>
